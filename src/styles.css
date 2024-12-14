@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Gradient Background */
+.gradient-bg {
+  background: linear-gradient(90deg, #4b39ef, #39d2c0);
+}
+
+/* Navbar Styles */
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: white;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #39d2c0; /* Highlight color */
+}
+
+/* Text with Gradient Effect */
+.text-primary-gradient {
+  background: linear-gradient(90deg, #4b39ef, #39d2c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Blockquote Styling */
+blockquote {
+  background: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid #39d2c0;
+  font-style: italic;
+}
+
+/* Bootstrap Icons */
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("/fonts/bootstrap-icons.woff2") format("woff2"),
+    url("/fonts/bootstrap-icons.woff") format("woff");
+}
+
+/* Ensure Icon Font Styles Are Applied */
+.icon {
+  font-family: "bootstrap-icons" !important;
+}
+
+/* Additional Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #39d2c0;
+  text-decoration: underline;
+}
